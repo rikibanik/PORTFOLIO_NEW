@@ -24,7 +24,7 @@ const DockNavbar = ({ activePage, onSwitchPage }) => {
             }`}
             onClick={() => onSwitchPage(item.page)}
             style={{
-              transform: isActive ? "translateY(-10px) scale(1.25)" : "translateY(0px) scale(1)", // Active icon elevation
+              transform: isActive ? "scale(1.25)" : "translateY(0px) scale(1)", // Active icon elevation
             }}
           >
             <FontAwesomeIcon icon={item.icon} className={`text-2xl ${isActive ? "text-blue-400" : ""}`} />

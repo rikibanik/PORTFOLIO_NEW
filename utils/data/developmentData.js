@@ -40,11 +40,7 @@ export const developmentData = [
       
         imgLink: "https://w7.pngwing.com/pngs/956/695/png-transparent-mongodb-original-wordmark-logo-icon.png"
     },
-    {
-        name: "FLASK",
-      
-        imgLink: "https://w7.pngwing.com/pngs/72/491/png-transparent-flask-representational-state-transfer-application-programming-interface-web-framework-python-schlenk-flask-white-monochrome-black.png"
-    }
+   
     
     
 
