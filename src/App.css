@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+body {
+  overflow: hidden; /* Prevents scrolling */
+}.content {
+  position: relative;
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  width: 100%;
+  height: 100%;
+}
+
+.home-active {
+  transform: translateX(0); /* Home stays in place */
+  opacity: 1;
+}
+
+.skills-active {
+  transform: translateX(0); /* Skills page should slide in */
+  opacity: 1;
+}
+
+.skills-enter {
+  transform: translateX(-100%); /* Initially, skills page is off-screen to the left */
+  opacity: 0;
+}
+
+.skills-enter-active {
+  transform: translateX(0); /* Slide in to the center */
+  opacity: 1;
+}
+
+  
