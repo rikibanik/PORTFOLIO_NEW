@@ -8,11 +8,17 @@
   -ms-user-select: none; /* IE 10 and IE 11 */
   user-select: none; 
 }
+/* Global reset */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 @layer utilities {
   .neon-glow {
-    box-shadow: 0 0 12px rgba(235, 243, 250, 0.2),
-     0 0 12px rgba(209, 223, 236, 0.2), 0 0 20px rgba(249, 251, 252, 0.2);
+    box-shadow: 0 0 10px rgba(235, 243, 250, 0.2),
+     0 0 12px rgba(209, 223, 236, 0.2), 0 0 15px rgba(249, 251, 252, 0.2);
   }
   .glow{
     box-shadow: 0 0 5px rgba(179, 180, 180, 0.354),

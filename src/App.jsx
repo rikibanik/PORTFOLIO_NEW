@@ -4,6 +4,8 @@ import Home from "./pages/Home";
 import Skills from "./pages/Skills";
 import DockNavbar from "./components/DockNavbar";
 import Contact from "./pages/Contact";
+import Projects from "./pages/Projects";
+import { events } from "../utils/data/projectEvents";
 function App() {
   const [activePage, setActivePage] = useState("home"); // 'home' or 'skills'
 
@@ -23,6 +25,7 @@ function App() {
         {activePage === "home" && <Home />}
         {activePage === "skills" && <Skills />}
         {activePage === "contact" && <Contact />}
+        {activePage === "project" && <Projects events={events} />}
       </div>
 
       {/* Navbar */}
