@@ -11,13 +11,16 @@ const Contact = () => {
   const form = useRef();
   const handleSubmit = (e) => {
     e.preventDefault();
-    
-    const formData = {
+    if(!name && !email && !message){
+      toast.error('Please enter details')
+    }
+    else{
+      const formData = {
         from_name: name,
         from_email: email,
         message: message,
       };
-  
+      
     emailjs 
     .send('service_0a4er1p', 
         'template_m2o5brn',
@@ -36,6 +39,9 @@ const Contact = () => {
             toast.error(`Message failed to send: ${error.text}`);
           }
     );
+
+    }
+    
   };
 
   return (
