@@ -4,7 +4,7 @@ import { faHouse, faUser, faLightbulb, faProjectDiagram, faContactCard } from "@
 
 const DockNavbar = ({ activePage, onSwitchPage }) => {
   const icons = [
-    { icon: faUser, label: "Profile", page: "profile" },
+  
     { icon: faContactCard, label: "Contact", page: "contact" },
     { icon: faHouse, label: "Home", page: "home" },
     { icon: faLightbulb, label: "Skills", page: "skills" },
@@ -12,7 +12,7 @@ const DockNavbar = ({ activePage, onSwitchPage }) => {
   ];
 
   return (
-    <div className="fixed bottom-4 neon-glow left-1/2 transform -translate-x-1/2 z-50 w-[90%] max-w-[800px] bg-slate-800 bg-opacity-70 rounded-2xl shadow-lg p-4 flex justify-between items-center">
+    <div className="fixed bottom-4 neon-glow left-1/2 transform -translate-x-1/2 z-50 md:w-[30%]  w-[100%] bg-slate-800 bg-opacity-70 rounded-2xl shadow-lg p-4 flex justify-between items-center">
       {icons.map((item) => {
         const isActive = activePage === item.page;
 

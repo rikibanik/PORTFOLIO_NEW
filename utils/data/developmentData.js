@@ -7,18 +7,18 @@ export const developmentData = [
     {
         name: "CSS",
       
-        imgLink: "https://w7.pngwing.com/pngs/66/60/png-transparent-web-development-cascading-style-sheets-css3-computer-icons-css-miscellaneous-blue-angle-thumbnail.png"
+        imgLink: "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
     },
     {
         name: "JAVASCRIPT",
       
-        imgLink: "https://w7.pngwing.com/pngs/640/199/png-transparent-javascript-logo-html-javascript-logo-angle-text-rectangle-thumbnail.png"
+        imgLink: "https://upload.wikimedia.org/wikipedia/commons/b/ba/Javascript_badge.svg"
     },
 
     {
         name: "REACT",
       
-        imgLink: "https://e7.pngegg.com/pngimages/452/495/png-clipart-react-javascript-angularjs-ionic-github-text-logo-thumbnail.png"
+        imgLink: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
     },
     {
         name: "TAILWIND",

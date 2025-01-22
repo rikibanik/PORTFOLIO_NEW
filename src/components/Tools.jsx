@@ -10,11 +10,11 @@ const Tools = () => {
       </h2>
       
       {/* Tools List */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 ">
         {ToolsList.map((tool, index) => (
           <div
             key={index}
-            className="flex items-center bg-slate-800 p-4 rounded-lg shadow hover:bg-slate-600 transition duration-300 cursor-pointer"
+            className="flex items-center bg-slate-800 p-4 rounded-xl shadow hover:bg-slate-600 transition duration-300 cursor-pointer"
           >
             {/* Tool Icon */}
             <img

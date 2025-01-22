@@ -11,13 +11,13 @@
 
 @layer utilities {
   .neon-glow {
-    box-shadow: 0 0 12px rgba(112, 128, 144, 0.669),
-     0 0 12px rgba(112, 128, 144, 0.669), 0 0 20px rgba(112, 128, 144, 0.669);
+    box-shadow: 0 0 12px rgba(235, 243, 250, 0.2),
+     0 0 12px rgba(209, 223, 236, 0.2), 0 0 20px rgba(249, 251, 252, 0.2);
   }
   .glow{
     box-shadow: 0 0 5px rgba(179, 180, 180, 0.354),
-     0 0 10px rgba(35, 36, 36, 0.669),
-      0 0 10px rgba(18, 19, 20, 0.669);
+                0 0 10px rgba(35, 36, 36, 0.669),
+                0 0 10px rgba(18, 19, 20, 0.669);
   }
   /* Use Tailwind's utility classes */
 .scale-0 {
@@ -29,5 +29,5 @@
   transform: scale(1);
   opacity: 1;
 }
-
+/* .rm-bg{mix-blend-mode:multiply;} */
 }
