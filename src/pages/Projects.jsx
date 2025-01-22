@@ -42,7 +42,7 @@ const Pillar = () => (
 
 const EventCard = ({ Heading, subHeadings, date }) => {
     return (
-      <div className="flex neon-glow flex-col gap-y-2 border-shadow-md rounded-xl p-4 w-[550px] cursor-pointer h-auto bg-zinc-500 bg-opacity-50 border-2 border-slate-500 hover:shadow-lg hover:border-blue-500 md:hover:scale-[1.05] transition-all duration-400 ease-in">
+      <div className="flex neon-glow flex-col gap-y-2 border-shadow-md rounded-xl p-4 md:w-[550px] w-[90%] cursor-pointer h-auto bg-zinc-500 bg-opacity-50 border-2 border-slate-500 hover:shadow-lg hover:border-blue-500 md:hover:scale-[1.05] transition-all duration-400 ease-in">
         <div className="text-white font-bold text-lg border-b">{Heading}</div>
         <div className="text-slate-200 text-sm italic mb-2">{date}</div>
         <ul className="text-slate-100 font-bold text-sm">

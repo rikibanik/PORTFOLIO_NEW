@@ -17,7 +17,7 @@ const Skills = () => {
           
           <Languages />
         </div>
-        <div className="md:w-1/2 p-4 h-auto">
+        <div className="md:w-1/2 p-4 h-auto flex-col">
           <Tools />
         </div>
       </div>
