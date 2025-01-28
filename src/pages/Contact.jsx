@@ -3,7 +3,7 @@ import AvatarSvg from "../assets/avatar1.svg";
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-
+//update
 const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
